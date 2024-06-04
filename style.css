@@ -1,0 +1,27 @@
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 30px solid blue;
+    border-radius: 50%;
+    border-left: 30px solid rgb(5, 255, 5);
+    border-right: 30px solid #ffff10;
+    position: relative;
+    left: 600px;
+    top: 90px;
+    animation: loader 2s infinite;
+    
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+}
+@keyframes loader{
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+} 
